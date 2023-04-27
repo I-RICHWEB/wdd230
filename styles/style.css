@@ -1,60 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&display=swap');
-*{
-    box-sizing: border-box;
-    max-width: 1600px;
-    
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&display=swap");
+* {
+  box-sizing: border-box;
+  max-width: 1600px;
 }
 header {
-    background-color:rgb(39, 5, 63);
-    color: white;
-    box-shadow: 3px 5px 6px slategray;
-    text-align: center;
+  background-color: rgb(39, 5, 63);
+  color: white;
+  box-shadow: 3px 5px 6px slategray;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
 footer {
-    background-color:rgb(39, 5, 63);
-    color: white;
-    box-shadow: 3px 5px 6px 5px slategray;
-    text-align: center;
-    font-family:'Bree Sherif', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.3rem;
-    padding: 7px;
-}
-#personal {
-display: flex;
-flex-direction: row;
-text-align: center;
+  background-color: rgb(39, 5, 63);
+  color: white;
+  box-shadow: 3px 5px 6px 5px slategray;
+  text-align: center;
+  font-family: "Bree Sherif", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3rem;
+  padding: 7px;
 }
 h1 {
-    font-family:'Crete Round', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
-    text-shadow: 5px 6px 12px black;
-    margin: 100px 40px;
-    width: 60%;
+  font-family: "Crete Round", "Arial Narrow", Arial, sans-serif;
+  font-size: 3em;
+  text-shadow: 5px 6px 12px black;
+  margin: 100px 40px;
+  width: 60%;
 }
 h2 {
-    text-shadow: 5px 6px 12px gray;
-    font-size: 2rem;
-    font-family:'Bree Sherif', 'Arial Narrow', Arial, sans-serif;
-
+  text-shadow: 5px 6px 12px gray;
+  font-size: 2rem;
+  font-family: "Bree Sherif", "Arial Narrow", Arial, sans-serif;
 }
 img {
-    border: 2px solid black;
-    border-radius: 3%;
-    box-shadow: 2px 3px 4px black;
-    margin: 15px;
-  
+  border: 2px solid black;
+  border-radius: 3%;
+  box-shadow: 2px 3px 4px black;
+  margin: 15px;
 }
 #line {
-    border-top: 1px solid black;
-    box-shadow: 1px 1px 1px gray;
-    margin-top: -20px;
+  border-top: 1px solid black;
+  box-shadow: 1px 1px 1px gray;
+  margin-top: -20px;
 }
 ul {
-    font-family:'Bree Sherif', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem;
-    
-
+  font-family: "Bree Sherif", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
 }
 footer p {
-    color: darkorange;
+  color: darkorange;
 }
