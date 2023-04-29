@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
 }
 body {
   max-width: 900px;
@@ -13,7 +13,7 @@ header {
   box-shadow: 3px 5px 6px slategray;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 footer {
   background-color: rgb(39, 5, 63);
@@ -21,35 +21,36 @@ footer {
   box-shadow: 3px 5px 6px 5px slategray;
   text-align: center;
   font-family: "Bree Sherif", "Arial Narrow", Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 7px;
 }
 h1 {
   font-family: "Crete Round", serif;
-  font-size: 3em;
+  font-size: 1.5em;
   text-shadow: 5px 6px 12px black;
-  margin: 100px 40px;
-  width: 60%;
+  margin: 20px auto;
 }
 h2 {
   text-shadow: 5px 6px 12px gray;
-  font-size: 2rem;
+  font-size: 1.3rem;
   font-family: 'Bree Serif', serif;
 }
 img {
   border: 2px solid black;
   border-radius: 3%;
   box-shadow: 2px 3px 4px black;
-  margin: 15px;
+  margin: 15px auto;
+  width: 200px;
+  height: 220px;
 }
 #line {
   border-top: 1px solid black;
   box-shadow: 1px 1px 1px gray;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 ul {
   font-family: 'Bree Serif', serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 footer p {
   color: darkorange;
