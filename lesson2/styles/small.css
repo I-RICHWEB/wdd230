@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 960px;
+  margin: 0 auto;
+}
+header {
+  margin-top: -20px;
+  margin-bottom: 5px;
+  background-color: rgb(39, 5, 63);
+  color: white;
+  text-align: center;
+}
+h1 {
+  font-family: "Crete Round", serif;
+  font-size: 1.5em;
+  padding: 7px;
+}
+h2 {
+  font-family: "Crete Round", serif;
+  font-size: 1.3rem;
+  padding-bottom: 5px;
+}
+footer {
+  background-color: rgb(39, 5, 63);
+  color: white;
+  box-shadow: 3px 5px 6px 5px slategray;
+  text-align: center;
+  font-family: "Bree Sherif", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  padding: 7px;
+  margin: 0 auto;
+}
+footer p {
+  color: darkorange;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: whitesmoke;
+}
+section {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 5px;
+}
+h3 {
+  background-color: rgb(61, 5, 59);
+  color: white;
+  font-size: 1.7rem;
+  font-family: "Crete Round", serif;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  margin: 0 auto;
+  padding: 5px;
+}
+h4 {
+  font-size: 1.6rem;
+  font-family: "Crete Round", serif;
+  color: black;
+  padding: 5px;
+  margin: 0;
+}
+a {
+  font-family: "Bree Serif", serif;
+  font-size: 1.4em;
+  color: blue;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 0;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 2px 2px black;
+}
+.info {
+  padding: 5px;
+  font-size: 1.3em;
+  margin: 0;
+  font-family: "Bree Serif", serif;
+  height: auto;
+}
+img {
+  border: 2px solid black;
+  box-shadow: 2px 2px 4px blueviolet;
+}
+.image {
+  text-align: center;
+  margin-bottom: 5px;
+}
