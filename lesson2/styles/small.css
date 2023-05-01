@@ -4,6 +4,7 @@
 body {
   max-width: 960px;
   margin: 0 auto;
+  
 }
 header {
   margin-top: -20px;
@@ -86,6 +87,7 @@ a:hover {
 img {
   border: 2px solid black;
   box-shadow: 2px 2px 4px blueviolet;
+  width: 80%;
 }
 .image {
   text-align: center;
