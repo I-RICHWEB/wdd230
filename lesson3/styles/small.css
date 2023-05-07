@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: honeydew;
+}
+header {
+  background-color: #1a1b41;
+  color: white;
+  font-family: "Comme", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+#logo {
+  width: 150px;
+  height: auto;
+  padding: 8px;
+}
+#logo-con {
+  width: 150px;
+  text-align: center;
+  margin: 5px auto;
+}
+h1 {
+  font-size: 1.5em;
+}
+header h3 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 200;
+  font-size: 2rem;
+  background-color: #5a85b6;
+}
+nav a {
+  text-decoration: none;
+  color: honeydew;
+  margin: 7px auto;
+  padding: 3px;
+}
+#home {
+  text-align: center;
+}
+#home {
+  text-decoration: underline;
+  color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+#audience {
+  text-decoration: underline;
+  color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+#design {
+  text-decoration: underline;
+  color: black;
+  font-style: italic;
+  font-weight: 800;
+}
+/* Css declarations for all MAIN element for the index page */
+main {
+  text-align: center;
+}
+.cards {
+  width: 95%;
+  border: 2px solid #c2e7da;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.cards h2 {
+  text-align: left;
+  padding: 5px 6px;
+  background-color: #1a1b41;
+  margin: 0 auto;
+  color: #baff29;
+  font-family: "Comme", sans-serif;
+  font-size: 1.5rem;
+}
+.cards p {
+  padding: 8px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+  background-color: #c2e7da;
+  margin: 0;
+}
+#home-logo {
+  width: 300px;
+  height: auto;
+  padding: 8px;
+}
+/* Css declarations for all MAIN element for the target-audience page */
+.sect {
+  width: 95%;
+  border: 2px solid #c2e7da;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.sect p {
+  background-color: #c2e7da;
+  margin: 0px;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+}
+#scenarios ul {
+  background-color: #c2e7da;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+}
+.sect h2 {
+  background-color: #1a1b41;
+  color: #baff29;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  font-family: "Comme", sans-serif;
+}
+.sect h3 {
+  font-family: "Comme", sans-serif;
+  font-size: 1.5rem;
+  color: #1a1b41;
+}
+.sect h4 {
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+  color: #1a1b41;
+}
+/* Css declarations for all MAIN element for the design page */
+.containers {
+  width: 95%;
+  border: 2px solid #c2e7da;
+  border-radius: 10px;
+  margin: 10px auto;
+}
+.containers h2 {
+  background-color: #1a1b41;
+  color: #baff29;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+  font-family: "Comme", sans-serif;
+}
+.containers p {
+  background-color: #c2e7da;
+  margin: 0px;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: left;
+}
+#typo ol {
+  background-color: #c2e7da;
+  margin: 0;
+  text-align: left;
+}
+#typo #f1 {
+  font-family: "Comme", sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+#typo #f2 {
+  font-family: "Comme", sans-serif;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+#typo #f3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+#color-title h4 {
+  border: 1px solid gray;
+  box-shadow: 1px 1px 2px black;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#e1 {
+  background-color: #1a1b41;
+  color: white;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#e2 {
+  background-color: #f1ffe7;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#e3 {
+  background-color: #6290c3;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#e4 {
+  background-color: #baff29;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#e5 {
+  background-color: #c2e7da;
+  padding: 5px;
+  margin: 7px;
+  font-family: "Comme", sans-serif;
+  font-size: 1.3rem;
+}
+#color-code h6 {
+  box-shadow: 1px 1px 2px black;
+  border: 1px solid gray;
+}
+#resp-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#example h3 {
+  font-family: "Comme", sans-serif;
+  font-size: 1.5rem;
+}
+#example p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: #1a1b41;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin: 0;
+}
+footer p {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  color: #baff29;
+}
