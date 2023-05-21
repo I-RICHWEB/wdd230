@@ -25,3 +25,22 @@ menuBtn.addEventListener("click", () => {
   navList.classList.toggle("open");
   menuBtn.classList.toggle("open");
 });
+
+//Banner display 
+const weekdays = curDate.getDay();
+if (weekdays == 1 || weekdays == 2) {
+  const banner = document.querySelector('.banner');
+  banner.style.display = "block";
+  const closeBtn = document.createElement('button');
+  closeBtn.textContent = 'X';
+  closeBtn.style.padding = '5px';
+  closeBtn.style.color = 'red';
+  closeBtn.style.border = 'none';
+  closeBtn.style.backgroundColor = "#fef9ff";
+  closeBtn.style.marginLeft = 'auto';
+  banner.style.display = 'flex';
+  banner.appendChild(closeBtn);
+  closeBtn.addEventListener('click', () => {
+    banner.style.display = 'none';
+  })
+}
