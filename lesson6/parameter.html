@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Wdd230 Assignment portal for Uyiosa Richmond Izekor. Web Front-End Development in 
+    Applied Technology Major at Brigham Young University Idaho." />
+  <title>Wdd230 Presentation</title>
+  <link rel="stylesheet" href="../styles/normalize.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Uyiosa Richmond Izekor</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a class="active" href="parameter.html">Parameters</a>
+      <a href="application.html">Application</a>
+    </nav>
+  </header>
+  <main>
+    <h2>WDD 230 Presentation: JavaScript Event Listener</h2>
+    <div id="line"></div>
+    <p>
+      Welcomme to my presentation on JavaScript Event Listener. I will be
+      talking on the meaning, parameters, and the application of event
+      listener.
+    </p>
+    <h2>PARAMETERS</h2>
+    <section class="parameter">
+      <h3>Parameters</h3>
+      <p>
+        The JavaScript addEventListener method is use to set an event handler
+        on an HTML element.<br>
+        Example:
+        <span>
+          document.querySelector('.demo').addEventListener(
+          <span class="first">"event",</span>
+          <span class="second">Function,</span>
+          <span class="third">useCapture</span> )
+        </span>
+      </p>
+      <p>
+        There are three parameters of addEventListener() method,
+      </p>
+      <ul>
+          <li>Event</li>
+          <li>Function</li>
+          <li>useCapture</li>
+        </ul>
+      <p>
+        To learn more about the parameters, we will use 
+        the "SELECT" element to
+        switch between them as an example of an event:
+      </p>
+      <p> Select:
+        <select class="options">
+          <option value="">-- SELECT --</option>
+          <option value="event" class="option1 opt">Event</option>
+          <option value="function" class="option2 opt">Function</option>
+          <option value="usecapture" class="option3 opt">useCapture</option>
+        </select>
+      </p>
+      <div class="output"></div>
+    </section>
+
+    <section>
+      <h3> useCapture</h3>
+      <p>We are all familiar with the "event" and the "function" 
+        parameters of the "addEventListener" method.
+        Nevertheless, I feel most people don't know about 
+        the "useCapture", I didn't know until I started this
+        presentation.
+      </p>
+      <p>
+        There are two ways of event propagation in the HTML DOM, 
+        bubbling and capturing.
+      </p>
+      <p>
+        Event propagation is a way of defining the element order
+        when an event occurs. If you have a "p" element
+        inside a "div" element, and the user clicks
+        on the "p" element, which element's "click"
+        event should be handled first?
+      </p>
+      <h4>Event Bubbling</h4>
+      <p>
+        In bubbling the inner most element's event is handled
+        first and then the outer: the 'p' element's click event
+        is handled first, then the 'div' element's click event.
+      </p>
+      <h4>Event Capturing</h4>
+      <p>
+        In capturing the outer most element's event is handled
+        first and then the inner: the 'div' element's click
+        event will be handled first, then the 'p' element's
+        click event.
+      </p>
+      <h4>Example</h4>
+      <p>
+        With the addEventListener() method you can specify
+        the propagation type by using the "useCapture" parameter:
+      </p>
+      <p>
+        addEventListener(event, function, useCapture);
+      </p>
+      <p>
+        The default value is false, which will use the
+        bubbling propagation, when the value is set to true,
+        the event uses the capturing propagation.
+      </p>
+    </section>
+    <section>
+      <h3>Application</h3>
+      <div class="bub-exam">
+        Bubbling:
+        <p class="bub">
+          Click Me
+        </p>
+      </div>
+      <div class="cap-exam">
+        Capturing:
+        <p class="cap">
+          Click Me
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy;<span id="year"></span> .:|:. Uyiosa R. Izekor .:|:. Benin City
+    <p>Last Updated: <span id="update"></span></p>
+  </footer>
+  <script src="scripts/parameter.js"></script>
+</body>
+
+</html>
