@@ -31,7 +31,7 @@
           <img
             id="header-logo"
             class="logo"
-            src="images/logo-for-bccc.png"
+            src="images/logo-for-bccc.webp"
             alt="logo image"
           />
         </div>
@@ -68,15 +68,17 @@
     </header>
     <main>
       <section class="hero">
-        <div class="hero-cover"></div>
         <h2>Welcome to Benin City</h2>
-        <div class="hero-img-con">
+        <picture class="hero-img-con">
+          <source media="(max-width: 460px)" srcset="images/wdd230-org-300.jpg">
+          <source media="(max-width: 799px)" srcset="images/wdd230-org-500.jpg">
+
           <img
             class="hero-img sect-img"
-            src="images/benin.jpg"
+            src="images/wdd230-org-800.jpg"
             alt="center of benin image"
           />
-        </div>
+        </picture>
         <a class="joinlink hero-join" href="#">Join The Chamber</a>
       </section>
       <section class="news">
@@ -101,11 +103,11 @@
       </section>
       <section class="weather">
         <h2>Weather</h2>
-        <span class="degree">37℃</span>
+        <div class="degree"><span class="temperature">10</span>℃</div>
         <h3 class="condition">Cloudly Sunny</h3>
         <div class="readings">
           <p class="wind-speed">
-            Wind Speed: <span class="kmeter">2.4 km/h</span>
+            Wind Speed: <span class="kmeter"><span class="speed">5.4</span> km/h</span>
           </p>
           <p class="wind-chill">Wind Chill: <span class="chill"> N/A</span></p>
         </div>
@@ -147,7 +149,7 @@
           <img
             id="footer-logo"
             class="logo"
-            src="images/logo-for-bccc.png"
+            src="images/logo-for-bccc.webp"
             alt="logo image"
           />
           <div class="name">
@@ -179,5 +181,6 @@
       </div>
     </footer>
     <script src="scripts/mychamber.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>
