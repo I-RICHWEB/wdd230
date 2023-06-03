@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lazyload</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <h1>Lazy loading practice</h1>
+        <picture>
+            <img class="pic" src="images/place-holder.jpg" data-src="images/crown.jpg" alt="image" loading="lazy">
+        </picture>
+
+        <picture>
+            <img class="pic" src="images/place-holder.jpg" data-src="images/cubic.jpg" alt="image" loading="lazy">
+        </picture>
+
+        <picture>
+            <img class="pic" src="images/place-holder.jpg" data-src="images/design.jpg" alt="image" loading="lazy">
+        </picture>
+
+        <picture>
+            <img class="pic" src="images/place-holder.jpg" data-src="images/flower.jpg" alt="image" loading="lazy">
+        </picture>
+
+        <picture>
+            <img class="pic" src="images/place-holder.jpg" data-src="images/wall.jpg" alt="image" loading="lazy">
+        </picture>
+    </main>
+    <script src="scripts/lazyload.js"></script>
+</body>
+</html>
