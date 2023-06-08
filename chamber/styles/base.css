@@ -98,6 +98,9 @@ nav a img,
   padding: 10px;
   color: #000;
 }
+ul li .active {
+  text-decoration: underline;
+}
 .open li {
   display: block;
 }
@@ -118,10 +121,9 @@ nav a img,
   padding: 5px;
   background-color: #fef9ff;
   border: 2px solid #f9a03f;
-  font-size: .7rem;
+  font-size: 0.7rem;
   display: none;
 }
-
 
 /* Main css begins */
 
@@ -241,13 +243,13 @@ main {
 }
 .join p {
   color: #fff;
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-family: "Quicksand", sans-serif;
   padding: 6px;
   text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.9);
 }
 .joinlink {
-  background-color: #2D4739;
+  background-color: #2d4739;
   border-radius: 15px;
   padding: 10px;
   font-family: "Quicksand", sans-serif;
@@ -303,7 +305,7 @@ main {
   text-align: right;
   width: 80%;
   margin-bottom: 20px;
-  border-bottom: 2px solid #f9a03f
+  border-bottom: 2px solid #f9a03f;
 }
 
 .readings {
@@ -349,7 +351,6 @@ main {
   width: 40%;
   margin: 0 auto;
   border-radius: 8px;
-  
 }
 .pic:hover {
   width: 42%;
@@ -373,7 +374,7 @@ main {
   font-family: "Oswald", sans-serif;
   font-size: 1.6rem;
   text-shadow: 1px 1px 6px #2d4739;
-  margin: .24rem auto;
+  margin: 0.24rem auto;
   padding: 10px;
 }
 .company p {
@@ -391,7 +392,7 @@ main {
 .company :nth-child(4) {
   border-top: 1px solid white;
   margin: 0;
-  margin-top: .3rem;
+  margin-top: 0.3rem;
 }
 
 /* Footer css benit */
@@ -439,4 +440,60 @@ footer h2 {
 .map a {
   font-family: "Poppins", sans-serif;
   color: #b65198;
+}
+
+/* discovery page css stylings */
+main.discovery {
+  display: flex;
+  flex-direction: column;
+  width: 98vw;
+  margin: 10px auto;
+}
+.places-image {
+  width: 95%;
+  height: 250px;
+  margin: 0 auto;
+  margin: 6px auto;
+  border-radius: 5px;
+}
+.places-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.image-information {
+margin: 0 auto;
+}
+.image-information h2 {
+  background-color: #d11147;
+  color: #80ff72;
+  text-shadow: 2px 3px 6px rgba(0, 1, 1, 0.3);
+  font-family: "Comme", sans-serif;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin: 0;
+}
+.image-information p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+.places {
+  margin: 10px auto;
+  border: 1px solid #d11147 ;
+}
+.statistic {
+  padding: 10px;
+  border: 1px solid #80ff72;
+  background-color: #80ff729a;
+}
+.stat-title {
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: "Comme", sans-serif;
+}
+.stat-info {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7rem;
 }

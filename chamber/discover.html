@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the home page for the chamber of commerce site. From here users can navigate to 
+      other pages and site for their growth."
+    />
+    <title>Benin City Chamber Of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <p>
+          Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </p>
+      </div>
+      <div class="grid-con">
+        <div class="logo-con">
+          <img
+            id="header-logo"
+            class="logo"
+            src="images/logo-for-bccc.webp"
+            alt="logo image"
+          />
+        </div>
+        <div class="title">
+          <h1>Benin City Chamber</h1>
+          <h2>DISCOVERY</h2>
+        </div>
+        <nav>
+          <a class="social-link" href="https://www.instagram.com/"
+            ><img
+              class="social"
+              src="images/instagram.png"
+              alt="instagram icon"
+          /></a>
+          <a
+            class="social-link"
+            href="https://web.facebook.com/facebook/?_rdc=1&_rdr"
+            ><img class="social" src="images/facebook.png" alt="facebook icon"
+          /></a>
+
+          <button id="menu-btn" class="btn">
+            <span class="btn1">&#9776;</span> <span class="btn2">X</span>
+          </button>
+        </nav>
+      </div>
+      <ul id="expand" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a class="active" href="discover.html">Discover</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Members</a></li>
+      </ul>
+      <p class="date">current date and time to be displayed</p>
+    </header>
+    <main class="discovery">
+      <div class="statistic">
+        <p>
+          <span class="stat-title"> Discription:</span>
+          <span class="stst-info"
+            >Benin city is one of the commerce center in Nigeria. It is mostly
+            populated by the bini tribe. The binis are know for their
+            hospitality. There is a lot of industries springing up in Benin City
+            now, as such openning employment opportunities for many. Also it has
+            good road and a local airport.</span
+          >
+        </p>
+        <p>
+          <span class="stat-title"> Location:</span>
+          <span class="stst-info"
+            >Benin city is located at the center of Edo state, with three of the
+            eighteen local governments in Edo state.</span
+          >
+        </p>
+        <p>
+          <span class="stat-title"> Population:</span>
+          <span class="stst-info"
+            >Projected Population, 1st January, 2022 -- 1,605,700</span
+          >
+        </p>
+        <p>
+          <span class="stat-title"> Your Visits:</span>
+          <span id="visits" class="stst-info"
+            ></span
+          >
+        </p>
+
+      </div>
+      <div class="places">
+        <div class="image-information">
+          <h2>King Square</h2>
+          <p>
+            King Square is a recreational center for everyone. It has fast food
+            and other natural relaxation facility.
+          </p>
+        </div>
+        <picture class="places-image">
+          <source
+            media="(max-width: 460px)"
+            srcset="images/king-square-235.jpg"
+            width="350"
+            height="235"
+          />
+          <source
+            media="(max-width: 799px)"
+            srcset="images/king-square-500x335.jpg"
+            width="500"
+            height="335"
+          />
+
+          <img
+            src="images/placeholder.png"
+            data-src="images/king-square.jpg"
+            alt="king-square picture"
+            loading="lazy"
+            width="720"
+            height="483"
+          />
+        </picture>
+      </div>
+
+      <div class="places">
+        <div class="image-information">
+          <h2>Kada Plaza</h2>
+          <p>
+            Kada Plaza is a recreational center for everyone. It has fast food,
+            cinema, and other natural relaxation facility.
+          </p>
+        </div>
+        <picture class="places-image">
+          <source
+            media="(max-width: 460px)"
+            srcset="images/kada-plaza-250.jpg"
+            width="350"
+            height="250"
+          />
+          <source
+            media="(max-width: 799px)"
+            srcset="images/kada-plaza-500x357.jpg"
+            width="500"
+            height="357"
+          />
+
+          <img
+            src="images/placeholder.png"
+            data-src="images/Kada-Plaza.jpg"
+            alt="kada-plaza picture"
+            loading="lazy"
+            width="672"
+            height="480"
+          />
+        </picture>
+      </div>
+
+      <div class="places">
+        <div class="image-information">
+          <h2>University Of Benin</h2>
+          <p>
+            University Of Benin is a federal university in Benin city that has
+            held a high reputation for decades.
+          </p>
+        </div>
+        <picture class="places-image">
+          <source
+            media="(max-width: 460px)"
+            srcset="images/uniben-233.jpg"
+            width="350"
+            height="233"
+          />
+          <source
+            media="(max-width: 799px)"
+            srcset="images/uniben-500x233.jpg"
+            width="500"
+            height="233"
+          />
+
+          <img
+            src="images/placeholder.png"
+            data-src="images/uniben.jpg"
+            alt="uniben picture"
+            loading="lazy"
+            width="800"
+            height="359"
+          />
+        </picture>
+      </div>
+
+      <div class="places">
+        <div class="image-information">
+          <h2>Art Structures</h2>
+          <p>
+            Art Structures is a recreational center for everyone. It has fast
+            food and other natural relaxation facility.
+          </p>
+        </div>
+        <picture class="places-image">
+          <source
+            media="(max-width: 460px)"
+            srcset="images/artStructures-233.jpg"
+            width="350"
+            height="233"
+          />
+          <source
+            media="(max-width: 799px)"
+            srcset="images/artStructures-500x300.jpg"
+            width="500"
+            height="300"
+          />
+
+          <img
+            src="images/placeholder.png"
+            data-src="images/artStructures.webp"
+            alt="artStructures picture"
+            loading="lazy"
+            width="450"
+            height="300"
+          />
+        </picture>
+      </div>
+
+      <div class="places">
+        <div class="image-information">
+          <h2>Mono River</h2>
+          <p>
+            Mono River is a recreational center for everyone. It has great
+            landscape view around. and other natural relaxation facility.
+          </p>
+        </div>
+        <picture class="places-image">
+          <source
+            media="(max-width: 460px)"
+            srcset="images/mono-river-200.jpg"
+            width="350"
+            height="200"
+          />
+          <source
+            media="(max-width: 799px)"
+            srcset="images/mono-river-500x285.jpg"
+            width="500"
+            height="285"
+          />
+
+          <img
+            src="images/placeholder.png"
+            data-src="images/mono-river.jpg"
+            alt="Mono River picture"
+            loading="lazy"
+            width="500"
+            height="400"
+          />
+        </picture>
+      </div>
+    </main>
+    <footer>
+      <div class="top-footer">
+        <div class="foot-logo">
+          <img
+            id="footer-logo"
+            class="logo"
+            src="images/logo-for-bccc.webp"
+            alt="logo image"
+          />
+          <div class="name">
+            <h2>Benin City Chamber Of Commerce</h2>
+            <p>56 Ogheghe Road, Off Sapele Road, Benin City, Edo State</p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <p>izekoruyiosarichmond@gmail.com</p>
+          <p>+2347050338828</p>
+          <div class="map">
+            <a
+              href="https://www.google.com/maps/@6.2045729,5.6281701,16.5z"
+              target="_blank"
+              >Location Map</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="base-footer">
+        <div class="sign">
+          <p>&copy; <span id="year"></span></p>
+          <p>Benin City Chamber</p>
+        </div>
+        <p>Uyiosa Richmond Izekor</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="modify"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/mychamber.js"></script>
+    <script src="scripts/discoverlazyloading.js"></script>
+  </body>
+</html>

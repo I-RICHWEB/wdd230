@@ -8,7 +8,7 @@
     padding: 10px;
     justify-content: space-evenly;
   }
-  .banner{
+  .banner {
     width: 98%;
     font-size: 1.5rem;
   }
@@ -44,16 +44,22 @@
     grid-template-columns: 60% 40%;
     margin: 0 auto;
   }
-  .news p, .events p, .weather p, .company p {
+  .news p,
+  .events p,
+  .weather p,
+  .company p {
     font-size: 1rem;
   }
-  .news h2, .events h2, .weather h2, .company h2 {
+  .news h2,
+  .events h2,
+  .weather h2,
+  .company h2 {
     font-size: 1.7rem;
   }
   .hero h2 {
     font-size: 2.2rem;
   }
-  .events{
+  .events {
     margin-right: 10px;
   }
   .weather h2 {
@@ -107,7 +113,7 @@
     width: 95%;
     font-size: 2rem;
     margin: 15px auto;
-    box-shadow: 1px 1px 8px 4px rgba(3,3,3,.4);
+    box-shadow: 1px 1px 8px 4px rgba(3, 3, 3, 0.4);
   }
   .top-footer {
     display: grid;
@@ -159,5 +165,27 @@
   }
   .map {
     font-size: 1.5rem;
+  }
+  /* discovery page css */
+  .image-information h2 {
+    font-size: 2rem;
+  }
+  .image-information p {
+    font-size: 1.7rem;
+  }
+  .places {
+    display: flex;
+    padding: 0;
+  }
+  .places-image {
+    width: 70%;
+    height: 100%;
+    margin: 15px 10px;
+  }
+  .places-image img:hover {
+    box-shadow: 2px 2px 7px 6px black;
+  }
+  .image-information {
+    width: 30%;
   }
 }
