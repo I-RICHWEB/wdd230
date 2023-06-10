@@ -1,16 +1,17 @@
 html {
   font-family: sans-serif;
 }
-body {
+main {
   text-align: center;
- 
+  
 }
 
 table {
   border-collapse: collapse;
   border: 2px solid rgb(200, 200, 200);
-  margin: 10px auto;
+  margin: 0 auto;
   box-shadow: 1px 1px 8px 2px darkgray;
+  margin-bottom: 30px;
 }
 thead tr th {
   background-color: forestgreen;
