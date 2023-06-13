@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the home page for the chamber of commerce site. From here users can navigate to 
+      other pages and site for their growth."
+    />
+    <title>Benin City Chamber Of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="banner">
+        <p>
+          Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+        </p>
+      </div>
+      <div class="grid-con">
+        <div class="logo-con">
+          <img
+            id="header-logo"
+            class="logo"
+            src="images/logo-for-bccc.webp"
+            alt="logo image"
+          />
+        </div>
+        <div class="title">
+          <h1>Benin City Chamber</h1>
+          <h2>Join Page</h2>
+        </div>
+        <nav>
+          <a class="social-link" href="https://www.instagram.com/"
+            ><img
+              class="social"
+              src="images/instagram.png"
+              alt="instagram icon"
+          /></a>
+          <a
+            class="social-link"
+            href="https://web.facebook.com/facebook/?_rdc=1&_rdr"
+            ><img class="social" src="images/facebook.png" alt="facebook icon"
+          /></a>
+
+          <button id="menu-btn" class="btn">
+            <span class="btn1">&#9776;</span> <span class="btn2">X</span>
+          </button>
+        </nav>
+      </div>
+      <ul id="expand" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Members</a></li>
+        <li><a class="active" href="join.html">Join Us</a></li>
+      </ul>
+      <p class="date">current date and time to be displayed</p>
+    </header>
+    <main class="joinpage">
+        <div class="welcome-mgs">
+            <h2>Welcome To The Chamber Join Page </h2>
+            <p>Please review our membership-levels and the associated benefits and fill the form below to join us.</p>
+            <p>There are lots more benefits to gain as a member of our chamber. We will be glad to have you.</p>
+        </div>
+        <div class="tablesection">
+            <table>
+                <caption>Members Level Information</caption>
+                <thead>
+                    <tr class="mainh">
+                        <th colspan="5">Membership Level</th>
+                    </tr>
+                    <tr class="level-row">
+                        <th>&nbsp;</th>
+                        <th>NP <span>(Non-Profitable)</span></th>
+                        <th>Bronze</th>
+                        <th>Silver</th>
+                        <th>Gold</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="price">
+                        <th>Monthly Fees</th>
+                        <td>Free</td>
+                        <td>$ 10</td>
+                        <td>$ 30</td>
+                        <td>$ 50</td>
+                    </tr>
+                    <tr>
+                        <th>Email Notifications</th>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                    </tr>
+                    <tr>
+                        <th>Free Trainings</th>
+                        <td> <span class="not-free">&#10006;</span></td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> <span class="more-bene">(Includes personal sessions)</span></td>
+                    </tr>
+                    <tr>
+                        <th>Event Discounts</th>
+                        <td><span class="not-free">&#10006;</span></td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> <span class="more-bene">(50%)</span></td>
+                    </tr>
+                    <tr>
+                        <th>Page Spotlight Ads</th>
+                        <td><span class="not-free">&#10006;</span></td>
+                        <td><span class="not-free">&#10006;</span></td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> <span class="more-bene">(Top Priority)</span></td>
+                    </tr>
+                    <tr>
+                        <th>Projects Alert</th>
+                        <td><span class="not-free">&#10006;</span></td>
+                        <td><span class="not-free">&#10006;</span></td>
+                        <td> <span class="you-get">&#10004;</span> </td>
+                        <td> <span class="you-get">&#10004;</span> <span class="more-bene">(First contact)</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="formsection">
+            <h2 id=>Joining The Chamber</h2>
+
+            <form class="joinform" method="get" action="thankyou.htm">
+                <p>All areas with <span class="required-sign">*</span> are required.</p>
+
+                <label class="block"> First Name <span class="required-sign">*</span><input type="text" name="fname" required></label>
+                <label class="block"> Last Name <span class="required-sign">*</span><input type="text" name="lname" required></label>
+                <label  class="block"> Title <input type="text" name="title" placeholder="Mr or Mrs" pattern="[A-Za-z -]{7}"></label>
+                <label  class="block"> Email <span class="required-sign">*</span> <input type="email" name="email" placeholder="example@gmail.com" required></label>
+                <label class="block"> Phone Number<span class="required-sign">*</span> <input type="tel" name="phone" required placeholder="2347055234544"></label>
+                <label class="block" > Business Name/Title <span class="required-sign">*</span><input type="text" name="businessName-title" required></label>
+                <label class="block" >Membership Level <select name="membership-level" id="levels">
+                    <option value="">--Select Level--</option>
+                    <option value="np">NP Membership (non-profitable)</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select> </label>
+                <label class="block">Business Description <textarea name="description" id="business-description" cols="30" rows="10"></textarea></label>
+                <label class="block"><input type="hidden" name="datetime" id="formdate"></label>
+
+                <input type="submit" id="submitbtn" value="Join Chamber">
+
+            
+            </form>
+        </div>
+    </main>
+    <footer>
+      <div class="top-footer">
+        <div class="foot-logo">
+          <img
+            id="footer-logo"
+            class="logo"
+            src="images/logo-for-bccc.webp"
+            alt="logo image"
+          />
+          <div class="name">
+            <h2>Benin City Chamber Of Commerce</h2>
+            <p>56 Ogheghe Road, Off Sapele Road, Benin City, Edo State</p>
+          </div>
+        </div>
+
+        <div class="contact">
+          <p>izekoruyiosarichmond@gmail.com</p>
+          <p>+2347050338828</p>
+          <div class="map">
+            <a
+              href="https://www.google.com/maps/@6.2045729,5.6281701,16.5z"
+              target="_blank"
+              >Location Map</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="base-footer">
+        <div class="sign">
+          <p>&copy; <span id="year"></span></p>
+          <p>Benin City Chamber</p>
+        </div>
+        <p>Uyiosa Richmond Izekor</p>
+        <p>WDD 230 Project</p>
+        <p>Last Modification: <span id="modify"></span></p>
+      </div>
+    </footer>
+    <script src="scripts/mychamber.js"></script>
+    <script src="scripts/joinscript.js"></script>
+  </body>
+</html>

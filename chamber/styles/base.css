@@ -463,7 +463,7 @@ main.discovery {
   border-radius: 5px;
 }
 .image-information {
-margin: 0 auto;
+  margin: 0 auto;
 }
 .image-information h2 {
   background-color: #d11147;
@@ -481,7 +481,7 @@ margin: 0 auto;
 }
 .places {
   margin: 10px auto;
-  border: 1px solid #d11147 ;
+  border: 1px solid #d11147;
 }
 .statistic {
   padding: 10px;
@@ -496,4 +496,192 @@ margin: 0 auto;
 .stat-info {
   font-family: "Poppins", sans-serif;
   font-size: 0.7rem;
+}
+
+/* join page css declearation */
+main.joinpage {
+  padding: 0.2rem;
+  display: block;
+}
+/* welcoming div section */
+main div.welcome-mgs {
+  background-color: #d1114793;
+  border: 1px solid rgba(0, 0, 1, 0.4);
+  border-radius: 10px;
+  padding: 0.4rem;
+  text-align: center;
+  color: #fff;
+  margin: 1rem auto;
+}
+main div.welcome-mgs h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+  font-family: "Comme", sans-serif;
+  color: #80ff72;
+}
+main div.welcome-mgs p {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0.3rem;
+}
+/* table div section */
+.tablesection {
+  width: 90vw;
+  max-width: 30rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+}
+.tablesection table {
+  width: 100%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+caption {
+  caption-side: bottom;
+  font-size: 0.8rem;
+  margin-top: .8rem;
+}
+.tablesection table thead .mainh th {
+  font-size: 1.3rem;
+  padding: 1.2rem;
+  color: #80ff72;
+  background-color: #000;
+  border: 0px;
+}
+.tablesection table thead .level-row th {
+  background-color: #222;
+  font-size: 1rem;
+  padding: 0.2rem 0.1rem;
+  color: #f9a03f;
+  border: 1px solid rgba(128, 128, 128, 0.514);
+}
+.tablesection table thead .level-row th:nth-child(2) span {
+  font-size: 0.8rem;
+}
+.tablesection table thead .level-row th:first-child {
+  background-color: #000;
+  border: none;
+}
+/* ---table body--- */
+tbody tr th,
+tbody tr td {
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+tbody tr th {
+  text-align: left;
+}
+.you-get {
+  color: green;
+  font-size: 1.1rem;
+}
+.not-free {
+  color: orangered;
+  font-size: 1.1rem;
+}
+.more-bene {
+  color: blue;
+  font-size: 0.8rem;
+}
+.tablesection table tbody tr.price td {
+  color: orange;
+}
+.tablesection table tbody tr.price td:nth-child(2) {
+  color: green;
+  font-size: 1rem;
+}
+.tablesection table tbody tr:nth-child(even) {
+  background-color: rgba(245, 245, 245, 0.705);
+}
+
+/* -the form div css-- */
+.formsection {
+  margin: 0.6rem auto;
+  text-align: center;
+
+}
+.joinform {
+  width: 95%;
+  max-width: 25rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0.8rem;
+  position: relative;
+  text-align: left;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-color: #b6519871;
+  
+}
+
+.formsection h2 {
+  margin: .5rem auto;
+  color: #222;
+}
+form label.block {
+  display: block;
+  font-size: 1rem;
+  color: #000;
+  margin: 0 0.6rem;
+  padding-top: 1.1rem;
+}
+form label.block input,
+form label.block select,
+form label.block textarea {
+  display: block;
+  margin-top: .2rem;
+  width: 100%;
+  border: 1px solid #555 ;
+  border-radius: 5px;
+  padding: .75rem;
+  background-color: whitesmoke;
+  color: #555;
+  font-size: 1.2rem;
+}
+.required-sign {
+  font-size: 1.1rem;
+  color: red;
+  margin: 0.2rem;
+}
+form input#submitbtn {
+  border: none;
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.7rem 0 .2rem 4%;
+  width: 90%;
+  font-size: 1.5rem;
+}
+form p {
+  font-size: .9rem;
+  position: absolute;
+  top: 0px;
+  right: .2rem;
+
+}
+form label.block input:required {
+  border-left: 5px solid red;
+}
+form label.block input:required:valid {
+  border-left: 5px solid green;
+}
+/* thank you page css */
+main.thankyou {
+  display: block;
+  text-align: center;
+  height: 60vh;
+  margin: 0 auto;
+
+}
+main.thankyou p {
+  padding: .8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: green;
 }

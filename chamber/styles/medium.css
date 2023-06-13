@@ -188,4 +188,66 @@
   .image-information {
     width: 30%;
   }
+  /* --- Join page css declaration --- */
+  main div.welcome-mgs {
+    padding: 0.8rem;
+  }
+  main div.welcome-mgs h2 {
+    font-size: 1.8rem;
+  }
+  main div.welcome-mgs p {
+    font-size: 1.5rem;
+}
+/* table div section */
+
+  .tablesection {
+    width: 600px;
+    border-radius: 10px;
+  }
+  caption {
+    font-size: 1.2rem;
+  }
+  .tablesection table thead .mainh th {
+    font-size: 1.8rem;
+  }
+  .tablesection table thead .level-row th {
+    padding: 0.8rem 0.8rem;
+  }
+  /* ---table body--- */
+  tbody tr th,
+  tbody tr td {
+    padding: 0.6rem 0.2rem;
+  }
+  .you-get {
+    font-size: 1.5rem;
+  }
+  .not-free {
+    font-size: 1.5rem;
+  }
+
+  /* -the form div css-- */
+  .joinform {
+    max-width: 600px;
+    padding: 0.8rem;
+  }
+  form label.block {
+    font-size: 1.4rem;
+    padding-top: 1.6rem;
+  }
+  form label.block input,
+  form label.block select {
+    font-size: 1.8rem;
+  }
+  form input#submitbtn {
+    padding: 1.4rem;
+    margin: 1rem 0 0.8rem 4%;
+    width: 90%;
+    font-size: 1.8rem;
+  }
+  /*Thank you page*/
+  main.thankyou p {
+  padding: .8rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+}
 }
