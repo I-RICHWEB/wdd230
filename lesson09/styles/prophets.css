@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 1rem;
+  color: azure;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 1px 1px 6px 2px #555;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.2rem;
+    padding: 1rem;
+}
+main {
+  background-color: rgba(0, 0, 139, 0.432);
+  text-align: center;
+  padding: 1.2rem;
+}
+.cards section {
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 139, 0.432);
+    margin: 1.5rem auto;
+    width: 90%;
+
+}
+h2 {
+    color: whitesmoke;
+    padding: .8rem;
+    font-size: 1.8rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: .5rem;
+
+}
+.cards p {
+    color: whitesmoke;
+    padding: .4rem;
+    font-size: 1.3rem;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.cards p:nth-child(5) {
+  margin-bottom: 1rem;
+}
+.cards img {
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px 3px #333;
+    margin-bottom: 1rem;
+    width: 94%;
+    object-fit: cover;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+footer{
+  background-color: blueviolet;
+  text-align: center;
+  padding: 1rem;
+  color: azure;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 1px 6px 2px #555;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
