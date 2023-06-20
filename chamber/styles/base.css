@@ -542,7 +542,7 @@ main div.welcome-mgs p {
 caption {
   caption-side: bottom;
   font-size: 0.8rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 .tablesection table thead .mainh th {
   font-size: 1.3rem;
@@ -603,7 +603,6 @@ tbody tr th {
 .formsection {
   margin: 0.6rem auto;
   text-align: center;
-
 }
 .joinform {
   width: 95%;
@@ -616,11 +615,10 @@ tbody tr th {
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
   background-color: #b6519871;
-  
 }
 
 .formsection h2 {
-  margin: .5rem auto;
+  margin: 0.5rem auto;
   color: #222;
 }
 form label.block {
@@ -634,11 +632,11 @@ form label.block input,
 form label.block select,
 form label.block textarea {
   display: block;
-  margin-top: .2rem;
+  margin-top: 0.2rem;
   width: 100%;
-  border: 1px solid #555 ;
+  border: 1px solid #555;
   border-radius: 5px;
-  padding: .75rem;
+  padding: 0.75rem;
   background-color: whitesmoke;
   color: #555;
   font-size: 1.2rem;
@@ -654,16 +652,15 @@ form input#submitbtn {
   color: white;
   padding: 1rem;
   border-radius: 1rem;
-  margin: 0.7rem 0 .2rem 4%;
+  margin: 0.7rem 0 0.2rem 4%;
   width: 90%;
   font-size: 1.5rem;
 }
 form p {
-  font-size: .9rem;
+  font-size: 0.9rem;
   position: absolute;
   top: 0px;
-  right: .2rem;
-
+  right: 0.2rem;
 }
 form label.block input:required {
   border-left: 5px solid red;
@@ -677,11 +674,144 @@ main.thankyou {
   text-align: center;
   height: 60vh;
   margin: 0 auto;
-
 }
 main.thankyou p {
-  padding: .8rem;
+  padding: 0.8rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   color: green;
+}
+
+/* directory css work  */
+
+main.directory {
+  display: block;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+main.directory h2 {
+  padding: 0.7rem;
+  width: 100%;
+  background-color: #b65198;
+  color: white;
+  margin: 0 auto;
+  font-family: "Comme", sans-serif;
+  font-size: 1.8rem;
+}
+main.directory .comp-title {
+  font-family: "Comme", sans-serif;
+  padding: 0.7rem;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.comp-title button {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  background-color: #320e3b;
+  color: #f9a03f;
+  width: 80px;
+  border-radius: 8px;
+  margin: 0.3rem;
+  font-size: 1rem;
+}
+.comp-title button:hover {
+  background-color: white;
+  border: 3px solid #f9a03f;
+}
+.companies {
+  width: 96%;
+  background-color: #b651987c;
+  margin: 10px auto;
+  border-radius: 7px;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.companies section {
+  margin: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.companies section img {
+  border-radius: 0.4rem;
+  box-shadow: 1px 2px 6px 3px #222;
+  margin-top: 0.8rem;
+}
+.companies section h4 {
+  margin: 0;
+  padding: 1rem;
+  color: #80ff72;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: bold;
+  font-family: "Comme", sans-serif;
+}
+.companies section p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0;
+  padding: 0.5rem;
+}
+.companies section a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0.5rem;
+  display: block;
+}
+.companies section a:hover {
+  color: #0ff;
+}
+.list {
+  background-color: #b651987c;
+  max-width: 850px;
+  margin: auto;
+}
+.list section img {
+  display: none;
+}
+.list section {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-column-gap: 10px;
+  margin: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
+.list section:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.list section * {
+  word-wrap: break-word;
+  padding: 0.4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  margin: 10px;
+}
+.list section a:hover {
+  color: #0ff;
+  
+}
+.list section h4{
+  color: #80ff72;
+  text-shadow: 1px 1px 4px #000;
+  text-align: left;
+}
+.list section p:nth-child(3) {
+  display: none;
+}
+.list section p:nth-child(4) {
+  display: none;
+}
+.list section .email {
+  display: none;
 }

@@ -250,4 +250,23 @@
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
 }
+
+/* the directory page css declarations */
+.companies {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.companies section h4, .companies section p {
+  text-shadow: 1px 1px 4px #000;
+}
+.companies section a {
+  color: #0ff;
+  text-shadow: 1px 1px 4px #000;
+}
+.companies section a:hover {
+  color: #000;
+}
+.companies section {
+  box-shadow: 1px 1px 6px 3px #555;
+}
 }

@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Deepend Cinemas",
+    "address": "Nosayaba Street, Use, Benin City, Nigeria",
+    "PhoneNumber": "+234 805 159 1941",
+    "emailAddress": null,
+    "url": "https://deepend-cinemas.business.site/",
+    "image": "https://www.gstatic.com/bfe/apps/website/img/h/84030273-theater-seats-1440.jpg",
+    "membershipLevel": "silver"
+  },
+
+  {
+    "name": "Kada Cinemas",
+    "address": "111 Sapele Road, Benin City, Edo State",
+    "PhoneNumber": "+234 805 501 0626",
+    "emailAddress": "info@kadacinemas.com",
+    "url": "https://www.kadacinemas.com/",
+    "image": "https://www.kadacinemas.com/wp-content/uploads/2021/05/Kada-logo-1.png",
+    "membershipLevel": "gold"
+  },
+
+  {
+    "name": "Global Horn Industry PVC Celing Limited",
+    "address": "KM 10 Benin-Sapele Road before the by-pass, Benin City, Edo Nigeria",
+    "PhoneNumber": "+234 808 666 6865",
+    "emailAddress": "info@globalhorn.com",
+    "url": "http://globalhorn.com/",
+    "image": "https://www.finelib.com/images/listings/tn/43590_company_logo.jpg",
+    "membershipLevel": "gold"
+  },
+
+  {
+    "name": "Integrated Rubber Products Nigeria Plc", 
+    "address": "Km 8 Benin-Sapele Road Opp Ekae Amusement Park, Benin City, Edo Nigeria",
+    "PhoneNumber": "+234 01 774 0500",
+    "emailAddress": "contact@integratedrubber.com",
+    "url": "http://www.integratedrubber.com/",
+    "image": "https://www.finelib.com/images/listings/tn/48680_company_logo.JPG",
+    "membershipLevel": "silver"
+  },
+
+  {
+    "name": "Guinness Nigeria Plc", 
+    "address": "49 Ikpoba Hill, Ikpoba Okha Benin City, Edo Nigeria",
+    "PhoneNumber": "+234 806 398 0771",
+    "emailAddress": null,
+    "url": "https://www.guinness-nigeria.com/",
+    "image": "https://www.finelib.com/images/listings/tn/9616_company_logo.JPG",
+    "membershipLevel": "gold"
+  },
+
+  {
+    "name": "Mouka Limited", 
+    "address": "Km 12, Benin-Lagos Express Road, By Okhuhun Junction, Along Benin Expressway, Iguosa Village, Benin City, Edo State",
+    "PhoneNumber": "+234 810 002 1272 ",
+    "emailAddress": null,
+    "url": "https://www.mouka.com/",
+    "image": "https://www.finelib.com/images/listings/tn/88731_company_logo.JPG",
+    "membershipLevel": "bronze"
+  },
+
+  {
+    "name": "Zartech Limited", 
+    "address": "191 Benin-Sapele Road, By Santana Market, Benin City, Edo Nigeria",
+    "PhoneNumber": "+234 805 599 0394",
+    "emailAddress": null,
+    "url": "http://www.zartechltd.com/",
+    "image": "https://www.finelib.com/images/listings/tn/48679_company_logo.JPG",
+    "membershipLevel": "bronze"
+  },
+
+  {
+    "name": "Time Ceramics Nig Ltd",
+    "address": "Utesi Community, Off Benin - Sapele Road, Bye-Pass, Oka, Benin City, Edo State",
+    "PhoneNumber": "+234 801 118 8888",
+    "emailAddress": "info@time-ceramics.com",
+    "url": "https://time-ceramics.com/",
+    "image": "https://www.finelib.com/images/listings/tn/89618_company_logo.JPG",
+    "membershipLevel": "np"
+  },
+
+  {
+    "name": "Nigerian Bottling Company - Benin Plant",
+    "address": "Benin - Sapele Road, Eyaen, Benin City, Edo",
+    "PhoneNumber": "+234 800 2622 2652",
+    "emailAddress": "info.nbc@cchellenic.com",
+    "url": "https://ng.coca-colahellenic.com/",
+    "image": "https://www.finelib.com/images/listings/tn/88946_company_logo.JPG",
+    "membershipLevel": "np"
+  }
+]
