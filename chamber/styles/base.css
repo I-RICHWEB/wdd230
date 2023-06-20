@@ -765,6 +765,7 @@ main.directory .comp-title {
   margin: 0;
   padding: 0.5rem;
   display: block;
+  color: #fff;
 }
 .companies section a:hover {
   color: #0ff;
@@ -814,4 +815,8 @@ main.directory .comp-title {
 }
 .list section .email {
   display: none;
+}
+.companies .membership {
+  color: #ddf93f;
+  text-shadow: 1px 1px 4px #000;
 }

@@ -39,7 +39,9 @@ function outputCompanies(datas) {
     address.textContent = data.address;
     phone.textContent = data.PhoneNumber;
     
+    membership.classList.add('membership');
     membership.textContent = `Membership-level: ${data.membershipLevel}`;
+
     link.setAttribute("href", data.url);
     link.setAttribute("target", "blank");
     link.textContent = "website";
