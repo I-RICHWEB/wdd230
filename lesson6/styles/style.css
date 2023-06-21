@@ -3,6 +3,7 @@
 
 }
 body {
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
 
@@ -217,4 +218,12 @@ section {
 .ref a:hover {
   background-color: black;
   color: yellow;
+}
+
+video {
+  width: 98%;
+  height: auto;
+  max-width: 400px;
+  margin: .8rem auto;
+  box-shadow: 1px 1px 5px 3px #555;
 }
