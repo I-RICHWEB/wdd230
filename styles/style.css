@@ -56,14 +56,14 @@ footer p {
   color: darkorange;
 }
 .temp-p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family: 'Bree Serif', serif;
 }
 .temp-fig {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: capitalize;
   margin-left: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   font-family: 'Bree Serif', serif;
 }
 figure {
