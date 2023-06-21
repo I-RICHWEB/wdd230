@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wdd230 Assignment portal for Uyiosa Richmond Izekor. Web Front-End Development in 
+    Applied Technology Major at Brigham Young University Idaho."
+    />
+    <title>Wdd230 Home Page</title>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Crete+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/medium.css" />
+  </head>
+  <body>
+    <header>
+      <h1>OpenWeatherMap.org API Test</h1>
+    </header>
+    <main>
+      <p class="temp-p">
+        The current temperature in Fairbanks, Alaska is
+        <span id="current-temp"></span> &deg;F
+      </p>
+      <h2>Current Condition Icon</h2>
+      <hr>
+      <figure>
+        <img src="" alt="" id="weather-icon" />
+        <figcaption class="temp-fig"></figcaption>
+      </figure>
+    </main>
+    <footer>
+      &copy;<span id="year"></span> .:|:. Uyiosa R. Izekor .:|:. Benin City
+      <p>Last Updated: <span id="update"></span></p>
+    </footer>
+    <script src="../scripts/myscript.js"></script>
+    <script src="scripts/weatherapi.js"></script>
+  </body>
+</html>

@@ -35,7 +35,7 @@ h2 {
   font-size: 1.3rem;
   font-family: 'Bree Serif', serif;
 }
-img {
+#myimagepic {
   border: 2px solid black;
   border-radius: 3%;
   box-shadow: 2px 3px 4px black;
@@ -54,4 +54,18 @@ ul {
 }
 footer p {
   color: darkorange;
+}
+.temp-p {
+  font-size: 1.4rem;
+  font-family: 'Bree Serif', serif;
+}
+.temp-fig {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Bree Serif', serif;
+}
+figure {
+  background-color: whitesmoke;
 }
