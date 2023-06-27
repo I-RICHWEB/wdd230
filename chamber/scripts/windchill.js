@@ -14,7 +14,7 @@ async function getWeatherInfo(url) {
     const weatherApi = await fetch(url);
     if (weatherApi.ok) {
       const weatherInfo = await weatherApi.json();
-      console.log(weatherInfo);
+      //console.log(weatherInfo);
       displayInfo(weatherInfo);
     } else {
       console.log("The weather API fetch was not successful");
