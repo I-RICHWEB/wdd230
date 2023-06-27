@@ -52,7 +52,7 @@ function windChill(temp, speed) {
       0.4275 * fahrenheit * mph ** 0.16;
     chill = calChill.toFixed(1) + " " + "Calm";
   } else {
-    chill = N / A;
+    chill = "N/A";
   }
   return chill;
 }
