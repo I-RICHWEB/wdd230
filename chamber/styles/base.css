@@ -345,39 +345,33 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 10px;
+  padding: .5rem;
+  box-shadow: 2px 2px 6px 3px #555;
+  border-radius: 5px;
 }
-.pic {
-  width: 40%;
-  margin: 0 auto;
+.spotlight div {
+  border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-}
-.pic:hover {
-  width: 42%;
-  box-shadow: 1px 1px 1px 5px rgba(0, 0, 0, 0.6);
-}
-.pic img {
-  width: 100%;
-  border-radius: 8px;
-}
-.company {
-  border-radius: 8px;
-  width: 100%;
-  background-color: rgba(1, 1, 1, 0.2);
-  margin: auto;
+  box-shadow: 1px 1px 4px 6px rgba(0, 0, 0, 0.4);
+  margin: .5rem auto;
+  width: 98%;
+  height: auto;
+  padding: .4rem;
   text-align: center;
-  padding: 4px;
-  box-shadow: 1px 1px 10px 4px black;
 }
-.company h2 {
+.spotlight hr {
+  border: 1px solid rgba(1, 1, 1, 0.2);
+  margin: .5rem;
+}
+
+.spotlight h2 {
   color: #80ff72;
   font-family: "Oswald", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   text-shadow: 1px 1px 6px #2d4739;
   margin: 0.24rem auto;
-  padding: 10px;
 }
-.company p {
+.spotlight p {
   color: #fff;
   font-size: 1rem;
   font-family: "Quicksand", sans-serif;
@@ -386,13 +380,16 @@ main {
   margin: 0;
   width: 90%;
 }
-.company p {
-  width: auto;
+.spotlight a {
+  font-size: 1rem;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.9);
+  color: #0ff;
 }
-.company :nth-child(4) {
-  border-top: 1px solid white;
-  margin: 0;
-  margin-top: 0.3rem;
+.spotlight img {
+  box-shadow: 1px 1px 6px 3px #000;
+  border-radius: 5px;
+  margin: .4rem;
 }
 
 /* Footer css benit */
