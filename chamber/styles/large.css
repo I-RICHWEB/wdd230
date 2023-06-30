@@ -23,7 +23,6 @@
   .nav-list li a {
     font-size: 1.5rem;
     padding: 10px;
-    margin: auto auto;
   }
   .nav-list li {
     display: block;
@@ -58,10 +57,10 @@
     font-size: 1rem;
   }
 
-  main {
-    grid-template-columns: 300px 10% 40% 300px;
+  main.home-page {
+    grid-template-columns: 2fr 4fr 2fr;
     grid-gap: 10px;
-    margin: 20px auto;
+    margin: .8rem auto;
   }
   .events {
     grid-column: 1/2;
@@ -70,7 +69,7 @@
     height: 100%;
   }
   .hero {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 1/3;
 
     height: 100%;
@@ -89,7 +88,7 @@
   }
   .spotlight {
     flex-direction: column;
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 1/4;
 
     height: 100%;
@@ -102,40 +101,16 @@
     width: 98%;
   }
   .news {
-    grid-column: 2/4;
+    grid-column: 2/3;
     grid-row: 3/4;
-
     height: 100%;
   }
 
   .base-footer {
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
+    display: flex ;
   }
-  .sign {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    font-size: 1rem;
-    padding: 0 2px;
-  }
-  .base-footer p:nth-child(2) {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    font-size: 1rem;
-    padding: 0 2px;
-  }
-  .base-footer p:nth-child(3) {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    font-size: 1rem;
-    padding: 0 2px;
-  }
-  .base-footer p:nth-child(4) {
-    grid-column: 4/5;
-    grid-row: 1/2;
-    font-size: 1rem;
-    padding: 0 2px;
-    border-left: 1px solid #fef9ff;
+  .base-footer p {
+    flex: 1 1 auto;
   }
   .company p:nth-child(4) {
     font-size: 1.2rem;
@@ -190,4 +165,26 @@
   .required-sign {
     font-size: 1.5rem;
   }
+
+  /* contact page css */
+  main.contact-main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  justify-content: center;
+}
+main.contact-main div.contact-us{
+  width: 80%;
+}
+main.contact-main .form-area form {
+  background-color: whitesmoke;
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 2%;
+  width: 100%;
+}
+main.contact-main div.form-area{
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
 }

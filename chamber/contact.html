@@ -62,102 +62,127 @@
         </nav>
       </div>
       <ul id="expand" class="nav-list">
-        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
         <li><a href="join.html">Join Us</a></li>
       </ul>
       <p class="date">current date and time to be displayed</p>
     </header>
-    <main class="home-page">
-      <section class="hero">
-        <h2>Welcome to Benin City</h2>
-        <picture class="hero-img-con">
-          <source media="(max-width: 460px)" srcset="images/travels-187.jpg" >
-          <source
-            media="(max-width: 799px)"
-            srcset="images/travels-500x268.jpg"
-          >
+    <main class="contact-main">
+      <div class="contact-us">
+        <hr>
+        <h2>Contact Us</h2>
+        <p>56 Ogheghe Road, Off Sapele Road, Benin City, Edo State</p>
 
-          <img
-            class="hero-img sect-img"
-            src="images/travels.jpg"
-            alt="center of benin image"
+        <p>+2347050338828</p>
+
+        <h3>Office Hours:</h3>
+        <p>Monday - Friday</p>
+        <p>9:00 AM - 4:00 PM</p>
+        <hr>
+      </div>
+
+
+      <div class="inquiries">
+        <h3>Membership</h3>
+        <p>
+          For inquiries about Joining the chamber and details of all the
+          membership-levels, their benefits and the subscription procedures, and
+          prices please contact our customer-care office:
+        </p>
+        <p class="emails">izekoruyiosarichmond@gmail.com</p>
+        <h3>Sponsorship</h3>
+        <p>
+          For inquiries about Sponsorship and contribution, contact our
+          Sponsorship office:
+        </p>
+        <p class="emails">uyi.izekor47@gmail.com</p>
+      </div>
+
+
+      <div class="form-area">
+        <h3>Get in touch now</h3>
+        <hr>
+        <form class="contactform" action="#" method="get">
+          <fieldset>
+            <label>
+              First Name: <input class="top" type="text" name="fname" required
+            ></label>
+            <label>
+              Last Name: <input class="top" type="text" name="lname" required
+            ></label>
+            <label>
+              Email: <input class="top" type="email" name="email" required
+            ></label>
+          </fieldset>
+          <fieldset>
+            <div class="radios">
+              Are you a member?
+              <label
+                ><input
+                  class="side"
+                  type="radio"
+                  name="member"
+                  value="yes"
+                  required
+                >
+                Yes</label
+              >
+              <label
+                ><input
+                  class="side"
+                  type="radio"
+                  name="member"
+                  value="no"
+                  required
+                >
+                No</label
+              >
+              <label
+                ><input
+                  class="side"
+                  type="radio"
+                  name="member"
+                  value="not-sure"
+                  required
+                >
+                Not Sure</label
+              >
+            </div>
+            <div id="conditioner-level">
+               <span  id="note">If you are a member please select your membership-level below.</span>
+              Membership Level:
+              <select class="top" name="mlevel" id="level-opt">
+                <option value="">--Select--</option>
+                <option value="np-level">N.P Non Profitable</option>
+                <option value="bronze-level">Bronze</option>
+                <option value="silver-level">Silver</option>
+                <option value="gold-level">Gold</option>
+              </select>
+            </div>
+
+            <label
+              >Your message:
+              <textarea
+                name="message"
+                id="message-area"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </label>
+          </fieldset>
+          <input
+            class="contact-btn"
+            type="submit"
+            name="submit-btn"
+            id="submit-btn"
+            value="Send Message"
           >
-        </picture>
-        <a class="joinlink hero-join" href="join.html">Join The Chamber</a>
-      </section>
-      <section class="news">
-        <h2>News Release</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate in
-          fugiat, vel quidem rem dolorem. Repellendus quasi nihil reiciendis
-          rem, perspiciatis officia sapiente non id ratione magni, eos natus
-          consectetur.
-        </p>
-      </section>
-      <section class="events">
-        <h2>Cultural Fashion Exibition</h2>
-        <p>
-          Join us for the cultural fashion exibition on the 7th June, 2023 at
-          the Oba Akenzua cultural center. <br>
-          Time: 1:00 PM Prompt.
-        </p>
-      </section>
-      <section class="join">
-        <h2>Join</h2>
-        <a class="joinlink join-lk" href="join.html">Join Us!</a>
-        <p>
-          Discover how to join the chamber and the available benefits for the
-          different package, <br>
-          <a class="lm" href="#">Learn more...</a>
-        </p>
-      </section>
-      <section class="weather">
-        <h2>Weather</h2>
-        <div class="degree"><span class="temperature"></span> &deg;C</div>
-        <h3 class="condition">Cloudly Sunny</h3>
-        <div class="readings">
-          <p class="wind-speed">
-            Wind Speed: <span class="speed">5.4</span
-            ><span class="kmeter"></span> km/h
-          </p>
-          <p class="wind-chill">Wind Chill: <span class="chill"> N/A</span></p>
-        </div>
-        <img
-          class="sun-set sect-img"
-          src="images/weather.jpg"
-          alt="beach sun-set image"
-        >
-        <img
-          class="weather-icon sect-img"
-          src="images/weather-icon.png"
-          alt="weather icon"
-        >
-      </section>
-      <section class="spotlight">
-        <div class="spotlight1 company">
-          <h2>Intelligent Design</h2>
-          <div class="pic">
-            <img src="images/company1.png" alt="company image" >
-          </div>
-          <p>
-            Design all your Posters, ID cards, Flyer, and many more with us.
-          </p>
-          <p>intelligentdesign@gmail.com</p>
-          <p>+234 705 555 0000</p>
-        </div>
-        <div class="spotlight2 company">
-          <h2>Smart Tech</h2>
-          <div class="pic">
-            <img src="images/company2.png" alt="company image" >
-          </div>
-          <p>Contact us for all your auto-mobile repairs and services.</p>
-          <p>smarttech@gmail.com</p>
-          <p>+234 703 333 0000</p>
-        </div>
-      </section>
+        </form>
+      </div>
     </main>
     <footer>
       <div class="top-footer">
@@ -194,6 +219,6 @@
       </div>
     </footer>
     <script src="scripts/mychamber.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <!-- <script src="scripts/windchill.js"></script> -->
   </body>
 </html>

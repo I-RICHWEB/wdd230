@@ -39,10 +39,9 @@
   }
 
   /*Main css from here */
-  main {
+  main.home-page {
     display: grid;
     grid-template-columns: 60% 40%;
-    margin: 0 auto;
   }
   .news p,
   .events p,
@@ -124,16 +123,18 @@
   }
   .base-footer {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: repeat(3, 1fr);
     font-size: 1.2rem;
-    justify-content: center;
+    align-items: center;
   }
-  .base-footer p:nth-child(2) {
-    border-right: 1px solid #fef9ff;
-    padding: 0;
+  .base-footer p {
+    border-right: 1px solid #fff;
+    padding: 0px;
   }
-  .sign p:nth-child(1) {
-    border-right: 0;
+  .base-footer p:nth-child(4) {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    border: none;
   }
   .name h2 {
     font-size: 1.3rem;
@@ -149,16 +150,6 @@
     font-size: 1.3rem;
     padding: 0;
     margin: 0;
-  }
-  .base-footer p:nth-child(3) {
-    padding: 0 5px;
-    margin: 0;
-    text-align: left;
-  }
-  .base-footer p:nth-child(4) {
-    grid-column: 1/4;
-    grid-row: 2/3;
-    font-size: 1.2em;
   }
   #footer-logo {
     width: 160px;
@@ -268,5 +259,56 @@
 }
 .companies section {
   box-shadow: 1px 1px 6px 3px #555;
+}
+
+/* contact us page medium css */
+main.contact-main div.contact-us{
+  width: 60%;
+}
+main.contact-main h2 {
+ font-size: 2.4rem;
+}
+main.contact-main p {
+  font-size: 1.3rem;
+
+}
+main.contact-main h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  margin-top: 1.8rem;
+}
+.form-area label, .form-area div, .top {
+  font-size: 1.4rem;
+}
+.top, textarea {
+  width: 80% ;
+  margin-top: .8rem ;
+  margin-bottom: 2rem;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+}
+main.contact-main .form-area h3 {
+  text-align: center;
+  margin-top: 7rem;
+  font-size: 1.4rem;
+}
+.form-area hr {
+  width: 60%;
+
+}
+#note {
+  font-size: 1.1rem;
+  margin: 1.2rem auto;
+
+}
+#submit-btn {
+  width: 80%;
+  padding: 1.4rem;
+  font-size: 1.6rem;
+  border-radius: 3rem;
+  background-color: #000;
+
+
+
 }
 }
