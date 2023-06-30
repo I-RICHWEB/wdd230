@@ -60,7 +60,7 @@
   main.home-page {
     grid-template-columns: 2fr 4fr 2fr;
     grid-gap: 10px;
-    margin: .8rem auto;
+    margin: 0.8rem auto;
   }
   .events {
     grid-column: 1/2;
@@ -107,7 +107,7 @@
   }
 
   .base-footer {
-    display: flex ;
+    display: flex;
   }
   .base-footer p {
     flex: 1 1 auto;
@@ -165,26 +165,32 @@
   .required-sign {
     font-size: 1.5rem;
   }
+  form label.block input,
+  form label.block select,
+  form label.block textarea {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
 
   /* contact page css */
   main.contact-main {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  justify-items: center;
-  justify-content: center;
-}
-main.contact-main div.contact-us{
-  width: 80%;
-}
-main.contact-main .form-area form {
-  background-color: whitesmoke;
-  margin-top: 2rem;
-  font-family: "Poppins", sans-serif;
-  padding: 2%;
-  width: 100%;
-}
-main.contact-main div.form-area{
-  grid-column: 1/3;
-  grid-row: 2/3;
-}
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    justify-content: center;
+  }
+  main.contact-main div.contact-us {
+    width: 80%;
+  }
+  main.contact-main .form-area form {
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    padding: 2%;
+    width: 100%;
+  }
+  main.contact-main div.form-area {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
 }
