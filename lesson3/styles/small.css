@@ -4,10 +4,10 @@
 body {
   max-width: 800px;
   margin: 0 auto;
-  background-color: honeydew;
+  background-color: #fef9ff;
 }
 header {
-  background-color: #1a1b41;
+  background-color: #320e3b;
   color: white;
   font-family: "Comme", sans-serif;
   font-size: 1rem;
@@ -37,7 +37,7 @@ nav {
   text-align: center;
   font-weight: 200;
   font-size: 2rem;
-  background-color: #5a85b6;
+  background-color: rgba(2, 2, 2, 0.3);
 }
 nav a {
   text-decoration: none;
@@ -48,21 +48,9 @@ nav a {
 #home {
   text-align: center;
 }
-#home {
-  text-decoration: underline;
-  color: black;
-  font-style: italic;
-  font-weight: 800;
-}
-#audience {
-  text-decoration: underline;
-  color: black;
-  font-style: italic;
-  font-weight: 800;
-}
 #design {
   text-decoration: underline;
-  color: black;
+  color: #f9a03f;
   font-style: italic;
   font-weight: 800;
 }
@@ -91,7 +79,7 @@ main {
   font-weight: 400;
   font-size: 1.2rem;
   text-align: left;
-  background-color: #c2e7da;
+  background-color: #d11149;
   margin: 0;
 }
 #home-logo {
@@ -107,16 +95,17 @@ main {
   margin: 10px auto;
 }
 .sect p {
-  background-color: #c2e7da;
+  background-color: #d11149;
+  color: #fff;
   margin: 0px;
-  padding: 5px;
+  padding: 0.8rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 1.2rem;
   text-align: left;
 }
 #scenarios ul {
-  background-color: #c2e7da;
+  background-color: #d11149;
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -157,7 +146,7 @@ main {
   font-family: "Comme", sans-serif;
 }
 .containers p {
-  background-color: #c2e7da;
+  background-color: #d11149;
   margin: 0px;
   padding: 5px;
   font-family: "Poppins", sans-serif;
@@ -166,7 +155,7 @@ main {
   text-align: left;
 }
 #typo ol {
-  background-color: #c2e7da;
+  background-color: #d11149;
   margin: 0;
   text-align: left;
 }
@@ -176,13 +165,16 @@ main {
   font-size: 1.3rem;
 }
 #typo #f2 {
-  font-family: "Comme", sans-serif;
-  font-weight: 800;
+  font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
 }
 #typo #f3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
+  font-size: 1.3rem;
+}
+#typo #f4 {
+  font-family: "Oswald", sans-serif;
   font-size: 1.3rem;
 }
 #color-title h4 {
@@ -193,41 +185,35 @@ main {
   font-family: "Comme", sans-serif;
   font-size: 1.3rem;
 }
-#e1 {
-  background-color: #1a1b41;
+#e1,
+#e2,
+#e3,
+#e4,
+#e5 {
   color: white;
   padding: 5px;
   margin: 7px;
   font-family: "Comme", sans-serif;
   font-size: 1.3rem;
 }
+#e1 {
+  background-color: #320e3b;
+}
 #e2 {
-  background-color: #f1ffe7;
-  padding: 5px;
-  margin: 7px;
-  font-family: "Comme", sans-serif;
-  font-size: 1.3rem;
+  background-color: #d11149;
+  
 }
 #e3 {
-  background-color: #6290c3;
-  padding: 5px;
-  margin: 7px;
-  font-family: "Comme", sans-serif;
-  font-size: 1.3rem;
+  background-color: #f9a03f;
+ 
 }
 #e4 {
-  background-color: #baff29;
-  padding: 5px;
-  margin: 7px;
-  font-family: "Comme", sans-serif;
-  font-size: 1.3rem;
+  background-color: #fef9ff;
+  color: #555;
 }
 #e5 {
-  background-color: #c2e7da;
-  padding: 5px;
-  margin: 7px;
-  font-family: "Comme", sans-serif;
-  font-size: 1.3rem;
+  background-color: #80ff72;
+ 
 }
 #color-code h6 {
   box-shadow: 1px 1px 2px black;
@@ -247,7 +233,7 @@ main {
 }
 
 footer {
-  background-color: #1a1b41;
+  background-color: #320e3b;
   text-align: center;
   color: white;
   padding: 10px;
