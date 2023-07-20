@@ -191,7 +191,7 @@ main {
   transition: background-color 0.6s ease;
   display: inline-block;
 }
-.active {
+.actives {
   background-color: #42f;
 }
 .slide_gallary {

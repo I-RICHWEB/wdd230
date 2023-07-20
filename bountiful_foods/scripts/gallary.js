@@ -14,9 +14,9 @@ function slideGallary() {
     slideIndex = 1;
   }
   for (i = 0; i < dot.length; i++) {
-    dot[i].className = dot[i].className.replace(" active", "");
+    dot[i].className = dot[i].className.replace(" actives", "");
   }
   slide[slideIndex - 1].style.display = "block";
-  dot[slideIndex - 1].className += " active";
+  dot[slideIndex - 1].className += " actives";
   setTimeout(slideGallary, 4000);
 }
