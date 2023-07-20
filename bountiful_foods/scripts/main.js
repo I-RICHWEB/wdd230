@@ -2,7 +2,7 @@
 const currentDate = new Date();
 const currentYear = currentDate.getFullYear();
 document.querySelector('.year').textContent = currentYear;
-document.querySelector('.modify').textContent = document.lastModified;
+document.querySelector('.modify').textContent = `modify: ${document.lastModified}`;
 const headerDate = document.querySelector('.date');
 
 const option = {
