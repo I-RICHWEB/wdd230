@@ -1,0 +1,488 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Teko', sans-serif; */
+* {
+  box-sizing: border-box;
+}
+header,
+footer {
+  background-color: #dbb3b1;
+  text-align: center;
+  width: 100%;
+}
+header div.social,
+header nav {
+  display: none;
+}
+header.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+}
+header a.logo img {
+  border-radius: 50%;
+  text-align: left;
+  margin: 6%;
+  /* box-shadow: 1px 1px 6px 2px #555; */
+}
+header a.title {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  font-family: "Teko", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  padding-left: 0.4rem;
+}
+header button {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  border: none;
+  background-color: #dbb3b1;
+  text-align: right;
+  justify-content: center;
+  font-size: 2rem;
+  padding: 0.8rem;
+  margin: 0;
+  color: #2c1a1d;
+}
+header button.tuggle_btn span.open {
+  box-shadow: 1px 1px 4px 2px #555;
+}
+header p {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  padding: 0.4rem;
+  color: #2c1a1d;
+}
+.link,
+footer div.link a {
+  text-decoration: none;
+}
+header nav ul li a.active {
+  color: #333;
+}
+header nav.nav {
+  background-color: rgba(8, 8, 8, 0.2);
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  text-align: center;
+  justify-content: center;
+}
+header nav.open {
+  display: block;
+  background-color: rgba(8, 8, 8, 0.2);
+  width: 100%;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  text-align: center;
+  justify-content: center;
+}
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header nav ul li a {
+  display: block;
+  padding: 0.6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+footer.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2%;
+}
+footer div.nav {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+footer div.nav a {
+  display: block;
+  text-align: left;
+  padding: 0.5rem;
+  color: #333;
+}
+footer div.social {
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+footer div.address {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+footer div.nav a,
+footer div.address,
+footer div.copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+}
+footer div.copyright {
+  display: flex;
+  grid-column: 1/4;
+  flex-direction: column;
+  margin: 4%;
+  border-top: 1px solid rgba(8, 8, 8, 0.2);
+}
+footer div.nav a:hover,
+.address a:hover,
+header nav ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+div.social a img {
+  border-radius: 50%;
+}
+div.social a img:hover {
+  box-shadow: 1px 1px 5px 2px #333;
+}
+
+/* The beginning of the the index page main css rules. */
+main {
+  padding: 2%;
+}
+.slides {
+  margin: 2%;
+  max-width: 800px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+}
+.myslides {
+  width: 80%;
+  border-radius: 8px;
+
+  margin: 2% auto;
+}
+.myslides img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 4px #333;
+  vertical-align: middle;
+}
+.cards_details {
+  position: absolute;
+  bottom: 5px;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+  padding: 4px 10px;
+  font-size: 1.2rem;
+}
+.dot_container {
+  text-align: center;
+}
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #0fd;
+  border-radius: 50%;
+  margin: 0 3px;
+  transition: background-color 0.6s ease;
+  display: inline-block;
+}
+.active {
+  background-color: #42f;
+}
+.slide_gallary {
+  display: none;
+}
+.change {
+  animation-name: change;
+  animation-duration: 1s;
+}
+@keyframes change {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* normal gallary */
+.large_gallary {
+  display: none;
+}
+.product {
+  width: 100%;
+  max-width: 400px;
+  margin: 1.4rem auto;
+  position: relative;
+}
+.product img {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+.fruit_name,
+.message,
+.juice .link {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 1.2rem;
+}
+.message {
+  bottom: 45px;
+  background-color: #a67f8e4d;
+  padding: 0.8rem 0.6rem;
+}
+.juice .link {
+  padding: 0.5rem;
+  background-color: #59d199cb;
+  border: 3px solid #fff;
+  border-radius: 25px;
+  color: #fff;
+  bottom: 5px;
+  display: block;
+  width: 90%;
+  left: 20px;
+  font-size: 1.5rem;
+}
+main.home {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.history {
+  grid-row: 2/3;
+  width: 100%;
+  height: auto;
+  border: 1px solid #5bba6f;
+  padding: 2% 2%;
+  border-radius: 8px;
+  text-align: center;
+  margin: 4% auto;
+}
+.h_link {
+  padding: 0.5rem;
+  background-color: #59d199cb;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.2rem;
+  display: none;
+}
+.history div {
+  margin: 4% auto;
+}
+.weather_card {
+  text-align: center;
+  border: 1px solid #5bba6f;
+  margin: 4% auto;
+  border-radius: 8px;
+  background-color: #a67f8e;
+  color: #fff;
+}
+.weather_card p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+.table table {
+  margin: 2% auto;
+  text-align: center;
+}
+.table table tr {
+  padding: 0.4rem;
+}
+.table table th,
+.table table td {
+  padding: 0.2rem 0.6rem;
+}
+.coasta_areas {
+  text-align: center;
+  border: 1px solid #5bba6f;
+  padding: 2%;
+  margin: 4% auto;
+  background-image: url(../images/juice2.jpg);
+}
+.coasta_areas select {
+  width: 90%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid #a67f8e;
+}
+.coasta_areas img {
+  display: none;
+}
+
+/* The fresh page css rules starts from here */
+main.fresh {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.submit_respond {
+    width: 96%;
+    padding: 1.4rem;
+    border: 1px solid #137547;
+    margin: 1.4rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    color: #137547; 
+    display: none;
+}
+.submit_respond .order {
+    color: #2C1A1D;
+}
+.fresh_p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    padding: 2%;
+    background-color: #2C1A1D;
+    margin: 4% auto;
+    color: #fff;
+    border-radius: 8px;
+}
+.form {
+    width: 98%;
+    max-width: 500px;
+    margin: 2% auto;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #2c1a1d93;
+    padding: 2%;
+    border-radius: 1rem;
+}
+.form fieldset {
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #A67F8E;
+    border-radius: 10px;
+}
+.form fieldset legend {
+    font-size: 1.2rem;
+    color: #333;
+    padding: 2%;
+    text-align: left;
+}
+.form label, .form label input {
+    display: block;
+}
+.form input, .form select, textarea {
+    width: 98%;
+    padding: .75rem;
+    margin-bottom: 1.5rem;
+    margin-top: .4rem;
+    border: 1px solid #A67F8E;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+}
+.form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #2C1A1D;
+    text-align: left;
+}
+.form button, .submit_btn {
+    margin: 1.2rem auto;
+    padding: .55rem;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    background-color: #2c1a1dc7;
+    border: 2px solid #2C1A1D;
+    color: #fff;
+}
+.form button:hover {
+    background-color: #000;
+}
+
+/* the about us page css rules  */
+.about_us {
+    max-width: 900px;
+    margin: 2% auto;
+}
+.about_us .info {
+    margin: 4% auto;
+    padding: 2%;
+}
+.contact p, .online p {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.online p span {
+    color: rgb(0, 89, 255);
+} 
+.email_address {
+    color: rgb(0, 89, 255);
+}
+.small_form h2 {
+    text-align: center;
+}
+.about_us hr {
+    border: 1px solid rgba(2, 3, 2, 0.2);
+}
+.submit_btn {
+    margin-left: 2%;
+}
+
+/* the fruits page css rules */
+main.fruits {
+    max-width: 1200px;
+    margin: 2% auto;
+
+}
+.welcome {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #5bba6f;
+    border-radius: 8px;
+    text-align: center;
+}
+.welcome p {
+    font-size: 1.2rem;
+    padding: 2%;
+}
+.welcome .link, .fruits .link {
+  padding: 0.5rem;
+  background-color: #59d199cb;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1.2rem;
+  display: block;
+  margin: 2%;
+  text-align: center;
+}
+.fruits_gallary {
+    border: 1px solid #59d199cb;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 2% auto;
+    grid-gap: 15px;
+}
+.fruits_gallary div {
+    width: 100%;
+    border: 1px solid #5bba6f;
+    text-align: center;
+    padding: 4% 0;
+}
+.fruits_gallary div img {
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+
+}
+.fruits_gallary div img:hover {
+    box-shadow: 1px 1px 5px 3px #555;
+}

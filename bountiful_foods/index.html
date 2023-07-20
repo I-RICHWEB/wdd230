@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful foods</title>
+    <meta name="description" content="Bountiful foods is a small organization that specialize in organic food produce.
+    They have their main office in Carlsbad and run multiple food truck around the coasta area of California. They supply
+    their product and also buy from other local farmers.">
+    <link rel="shortcut icon" href="favicon-bountiful.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Teko:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header class="home">
+        <a href="index.html" class="logo link">
+            <img src="images/bountiful_foods_logo.webp" 
+            alt="bountiful_foods_logo" width="90" height="90">
+        </a>
+        <a href="index.html" class="title link">
+            <h1 class="headings">Bountiful Foods</h1>
+        </a>
+
+        <div class="social link">
+            <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" alt="linkedin_icon"></a>
+            <a href="https://twitter.com/"><img src="images/twitter_icon.webp" alt="twitter_icon"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterest_icon.webp" alt="pinterest_icon"></a>
+            <a href="https://web.facebook.com/"><img src="images/facebook_icon.webp" alt="facebook_icon"></a>
+        </div>
+
+        <button class="tuggle_btn">
+            <span class="menu">
+            &#9776;
+            </span>
+        </button>
+        <nav class="nav">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh Juice</a></li>
+                <li><a href="fruits.html">Fruits</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+                <li><a href="resources.html">Resources</a></li>
+            </ul>
+        </nav>
+
+        <p><span class="date">Current date allocation</span></p>
+    </header>
+    <main class="home">
+        <div class="slide_gallary">
+            <div class="slides container">
+                <div class="myslides change">
+                    <img src="images/Cherry.jpg" alt="cherry image"  loading="lazy">
+                    <div class="cards_details">Cherry</div>
+                </div>
+
+                <div class="myslides change">
+                    <img src="images/Tangerine.jpg" alt="Tangerine image" loading="lazy">
+                    <div class="cards_details">Tangerine</div>
+                </div>
+
+                <div class="myslides change">
+                    <img src="images/Blueberry.jpg" alt="Blueberry image" loading="lazy">
+                    <div class="cards_details">Blueberry</div>
+                </div>
+            </div>
+
+            <div class="dot_container">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+
+        </div>
+        <div class="normal_gallary">
+            <div class="fruit product">
+                <img src="images/Apple.jpg" alt="Apple fruit image">
+                <div class="fruit_name">Fruit Name</div>
+            </div>
+            <div class="juice product">
+                <img src="images/fruit_juice.jpg" alt="Apple fruit image">
+                <div class="message"><p>Fruits juice is good for your health.
+                    Enjoy your own preference fruits juice with special ingredients
+                    and professional processing at your comfort.
+                </p></div>
+                <a class="link" href="fresh.html">Make Your Own Fresh Juice</a>
+            </div>
+        </div>
+
+        <div class="large_gallary">
+            <div class="pic">
+                    <img src="images/Cherry.jpg" alt="cherry image"  loading="lazy">
+                    <div class="pic_details">Cherry</div>
+                </div>
+
+                <div class="pic">
+                    <img src="images/Tangerine.jpg" alt="Tangerine image" loading="lazy">
+                    <div class="pic_details">Tangerine</div>
+                </div>
+
+                <div class="pic">
+                    <img src="images/Blueberry.jpg" alt="Blueberry image" loading="lazy">
+                    <div class="pic_details">Blueberry</div>
+                </div>
+        </div>
+
+        <div class="weather coasta">
+            <div class="weather_card">
+                <h2> Carlsbad Weather</h2>
+                <img class="weather_icon" src="#" alt="weather desc icon">
+                <p><span class="condition">Cloudy</span></p>
+                <p>Temperature: <span class="cur_temp">32 </span>&deg;C</p>
+                
+                <p>Humidity: <span class="humidity">245 humidity</span></p>
+
+                <div class="table">
+                    <table>
+                        <tr>
+                            <th><span class="day_1">Mon</span></th>
+                            <th><span class="day_2">Tue</span></th>
+                            <th><span class="day_3">Wed</span></th>
+                        </tr>
+
+                        <tr>
+                            <td><span class="day1">34 </span> &deg;C</td>
+                            <td><span class="day2">34 </span> &deg;C</td>
+                            <td><span class="day3">34 </span> &deg;C</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="coasta_areas">
+                <select name="coasta" id="areas">
+                    <option value="city1">Carlsbad</option>
+                    <option value="city1">Carlsbad</option>
+                    <option value="city1">Carlsbad</option>
+                    <option value="city1">Carlsbad</option>
+                </select>
+                <div class="areas_info">
+                    <h2>The city name</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, 
+                        adipisicing elit. Earum corporis voluptate 
+                        sunt necessitatibus deleniti, facere expedita 
+                        consequuntur assumenda amet laboriosam officia 
+                        blanditiis numquam aspernatur mollitia animi 
+                        odit quas? Optio, debitis.
+                    </p>
+                </div>
+                <img src="images/Blackberry.jpg" alt=" blackberry" >
+            </div>
+        </div>
+        <div class="history">
+            <h2>Your Recent Juice Made</h2>
+            <div class="info_holder">
+                You have no recent juice made for now.
+            </div>
+            <a class="link h_link" href="fresh.html">Make your own fruit juice</a>
+        </div>
+    </main>
+    <footer class="home">
+        <div class="social link">
+            <a href="https://www.linkedin.com/"><img src="images/linkedin_icon.webp" alt="linkedin_icon"></a>
+            <a href="https://twitter.com/"><img src="images/twitter_icon.webp" alt="twitter_icon"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterest_icon.webp" alt="pinterest_icon"></a>
+            <a href="https://web.facebook.com/"><img src="images/facebook_icon.webp" alt="facebook_icon"></a>
+        </div>
+
+        <div class="nav link">
+            <a href="index.html">Home</a>
+            <a href="fresh.html" target="_blank">Fresh Juice</a>
+            <a href="fruits.html" target="_blank">Fruits</a>
+            <a href="about_us.html" target="_blank">About Us</a>
+            <a href="resources.html" target="_blank">Resources</a>
+        </div>
+
+        <div class="address">
+            <p>Carlsbad, 92008, California, USA</p>
+            <p>uyi.izekor47@gmail.com</p>
+            <p>+234 705 033 8828</p>
+            <a href="https://www.google.com/maps/place/Carlsbad,+CA,+USA/@33.1477998,
+            -117.3426265,13z/data=!4m6!3m5!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.
+            1580933!4d-117.3505939!16zL20vMHI0d24?authuser=0&entry=ttu" class="map link" target="_blank">
+            🏁Location</a>
+        </div>
+
+        <div class="copyright">
+            <p>&copy; <span class="year">current year</span></p>
+            <p>Bountiful Foods Project</p>
+            <p>Uyiosa Richmond Izekor</p>
+            <p>WDD-230 Final Project</p>
+            <p><span class="modify">Last modification date</span></p>
+        </div>
+
+
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/gallary.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

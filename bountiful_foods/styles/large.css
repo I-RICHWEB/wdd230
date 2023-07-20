@@ -1,0 +1,96 @@
+@media only screen and (min-width: 64em) {
+    
+    header.home {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+    }
+    header button {
+        display: none;
+    }
+    header a.title {
+        grid-column: 2/4;
+        margin: 0;
+        padding: 0;
+    }
+    header div.social, header nav {
+        display: block;
+
+    }
+    header div.social {
+        margin: auto 4%;
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+    header nav.nav {
+        grid-column: 2/4;
+        grid-row: 2/3;
+        background-color: #dbb3b1;
+    }
+    header p {
+        grid-column: 1/5;
+        grid-row: 3/4;
+        background-color: #e7cdcc;
+    }
+    header nav.nav ul {
+        display: flex;
+        text-align: center;
+    }
+    header nav.nav ul li {
+        text-align: center;
+        flex: 1 1 auto;
+    }
+    
+    /* the css rules for the index page main */
+    .weather_card {
+        position: unset;
+        width: 94%;
+    }
+    .slide_gallary, .coasta_areas img {
+        display: none;
+    }
+  
+    main.home {
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 20px;
+    }
+    .weather {
+        grid-column: 1/2;
+        grid-row: 1/3;
+        border: 1px solid rgba(3, 3, 3, .3);
+        border-radius: 7px;
+        width: 90%;
+    }
+    .coasta_areas {
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .large_gallary {
+        display: flex;
+    }
+    .large_gallary .pic {
+        flex: 1 1 auto;
+        margin: 1%;
+
+    }
+    .large_gallary .pic img {
+        width: 220px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .large_gallary .pic img:hover {
+        box-shadow: 1px 1px 5px 3px rgba(1, 1, 1, .7);
+    }
+    .h_link {
+        display: block;
+        width: 400px;
+        margin: 4% auto;
+    }
+
+    /* the fresh page css rule beging here */
+    .form input, .form select, textarea {
+        padding: .5rem;
+
+    }
+}
